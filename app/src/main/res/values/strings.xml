@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calender</string>
+    <string name="day_of_week" translatable="false">dayOfWeek</string>
+    <string name="day_of_month_text" translatable="false">dayOfMonthText</string>
+    <string name="day_of_month_container" translatable="false">dayOfMonthContainer</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

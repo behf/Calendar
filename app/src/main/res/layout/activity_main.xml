@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tz"
+    android:orientation="vertical"
+    tools:context="com.example.behzad.calender.MainActivity">
+
+    <com.example.behzad.calender.CalendarView
+        android:id="@+id/calendar_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f38712"
+        app:calendarBackgroundColor="#00f38712"
+        app:calendarTitleTextColor="@color/colorAccent"
+        app:commonDayOfWeekColor="@android:color/white"
+        app:currentDayOfMonthColor="@android:color/white"
+        app:dayOfWeekTextColor="@android:color/white"
+        app:disabledDayBackgroundColor="#646863"
+        app:disabledDayTextColor="#38f218"
+        app:selectedDayBackgroundColor="#f2c318"
+        app:titleLayoutBackgroundColor="#00f38712"
+        app:weekLayoutBackgroundColor="@color/colorPrimary"
+        app:weekend="friday"
+        app:weekendColor="#f21835">
+
+    </com.example.behzad.calender.CalendarView>
+
+
+
+</LinearLayout>
